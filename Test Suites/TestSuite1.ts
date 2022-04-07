@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/verify search(manual)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>64716e0a-d44c-4661-92a2-07481fdca7db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/testcase1</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

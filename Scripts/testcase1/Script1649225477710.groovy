@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo.guru99.com/test/newtours/')
+WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.setText(findTestObject('demo page/Page_Welcome Mercury Tours/input_User                     Name_userName'), 'navya14')
+WebUI.setText(findTestObject('Object Repository/google search/Page_Google/input__q'), 'selenium')
 
-WebUI.setEncryptedText(findTestObject('demo page/Page_Welcome Mercury Tours/input_Password_password'), 'cb61o/wFowwWtzh42Eoecw==')
+WebUI.sendKeys(findTestObject('Object Repository/google search/Page_Google/input__q'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('demo page/Page_Welcome Mercury Tours/input_Password_submit'))
+WebUI.click(findTestObject('Object Repository/google search/Page_selenium - Google Search/h3_Selenium'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/google search/Page_Selenium/span_Downloads'))
 
 WebUI.delay(3)
 
